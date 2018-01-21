@@ -14,6 +14,9 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 @RequestMapping("/student")
 public class StudentController {
+	/**
+	 * 学生
+	 */
 	@Autowired
 	private StudentService studentService;
 	/**
